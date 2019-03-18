@@ -1,0 +1,41 @@
+module github.devtools.predix.io/212627558/elasticsearch-operator
+
+go 1.12
+
+require (
+	github.com/Sirupsen/logrus v1.0.4
+	github.com/beorn7/perks v0.0.0-20160804104726-4c0e84591b9a
+	github.com/davecgh/go-spew v1.1.0
+	github.com/ghodss/yaml v1.0.0
+	github.com/gogo/protobuf v0.0.0-20171007142547-342cbe0a0415
+	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
+	github.com/golang/protobuf v0.0.0-20171113180720-1e59b77b52bf
+	github.com/google/gofuzz v0.0.0-20170612174753-24818f796faf
+	github.com/googleapis/gnostic v0.1.0
+	github.com/hashicorp/golang-lru v0.0.0-20160813221303-0a025b7e63ad
+	github.com/heptiolabs/healthcheck v0.0.0-20171201210846-da5fdee475fb
+	github.com/howeyc/gopass v0.0.0-20170109162249-bf9dde6d0d2c
+	github.com/imdario/mergo v0.0.0-20171009183408-7fe0c75c13ab
+	github.com/json-iterator/go v0.0.0-20171115153421-f7279a603ede
+	github.com/matttproud/golang_protobuf_extensions v1.0.0
+	github.com/prometheus/client_golang v0.8.0
+	github.com/prometheus/client_model v0.0.0-20171117100541-99fa1f4be8e5
+	github.com/prometheus/common v0.0.0-20171117163051-2e54d0b93cba
+	github.com/prometheus/procfs v0.0.0-20171017214025-a6e9df898b13
+	github.com/spf13/pflag v1.0.0
+	github.com/upmc-enterprises/elasticsearch-operator v0.3.0
+	golang.org/x/crypto v0.0.0-20171128194009-94eea52f7b74
+	golang.org/x/net v0.0.0-20171207222016-dc871a5d77e2
+	golang.org/x/sys v0.0.0-20171208144020-19b530ce1b24
+	golang.org/x/text v0.0.0-20171207104613-be25de41fadf
+	golang.org/x/time v0.0.0-20180412165947-fbb02b2291d2
+	golang.org/x/tools v0.0.0-20180816152721-1dfe8478fdec
+	gopkg.in/inf.v0 v0.9.0
+	gopkg.in/yaml.v2 v2.0.0-20171116090243-287cf08546ab
+	k8s.io/api v0.0.0-20180308224125-73d903622b73
+	k8s.io/apiextensions-apiserver v0.0.0-20171207051515-099fd227da1f
+	k8s.io/apimachinery v0.0.0-20180228050457-302974c03f7e
+	k8s.io/client-go v7.0.0+incompatible
+	k8s.io/code-generator v0.0.0-20180228050103-7ead8f38b01c
+	k8s.io/gengo v0.0.0-20180813235010-4242d8e6c5db
+)

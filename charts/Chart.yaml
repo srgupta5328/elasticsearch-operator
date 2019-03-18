@@ -1,0 +1,9 @@
+apiVersion: v1
+description: A Helm chart for Predix Logging Operator
+name: predix-logging
+version: 0.1.0
+maintainer:
+  - name: 212627558
+    email: rohan.gupta@ge.com
+  - name: 212562635
+    email: thilak.somasundaram@ge.com
